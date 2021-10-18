@@ -1,12 +1,26 @@
 public class Act4 { // Clase principal
   public static void main(String[] args) {
-    String dinero;
-    System.out.print("Por favor, introduce una cantidad de pesetas: ");
-    dinero = System.console().readLine();
-    int pesetas;
-    pesetas = Integer.parseInt( dinero);
-    double euros = pesetas/166.386;
-    System.out.println(pesetas+" pesetas son "+euros+" euros");
+    String numero;
+    System.out.print("Por favor, introduce un número: ");
+    numero = System.console().readLine();
+    int primerNumero;
+    primerNumero = Integer.parseInt(numero);
+    
+    System.out.print("Por favor, introduce otro número: ");
+    numero = System.console().readLine();
+    int segundoNumero;
+    segundoNumero = Integer.parseInt(numero);
+    double suma= primerNumero+segundoNumero;
+    double resta=primerNumero-segundoNumero;
+    double multiplicacion=primerNumero*segundoNumero;
+    double division=primerNumero/segundoNumero;
+    
+    
+    
+    System.out.println("La suma de ambos numeros es: "+ suma);
+    System.out.println("La resta de ambos numeros es: "+ resta);
+    System.out.println("La multiplicación de ambos numeros es: "+ multiplicacion);
+    System.out.println("La divisón de ambos numeros es: "+ division);
     
   }
 }
