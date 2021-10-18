@@ -3,14 +3,14 @@ public class Act5 { // Clase principal
     String numero;
     System.out.print("Por favor, introduce la medida de la altura: ");
     numero = System.console().readLine();
-    int altura;
-    altura = Integer.parseInt(numero);
+    int lado1;
+    lado1 = Integer.parseInt(numero);
     
     System.out.print("Por favor, introduce la medida de la base: ");
     numero = System.console().readLine();
-    int base;
-    base = Integer.parseInt(numero);
-    double area = base*altura;
+    int lado2;
+    lado2 = Integer.parseInt(numero);
+    double area = lado1*lado2;
     
     
     
