@@ -10,7 +10,7 @@ public class Act6 { // Clase principal
     numero = System.console().readLine();
     int base;
     base = Integer.parseInt(numero);
-    double area = base*altura;
+    double area = base*altura/2;
     
     
     
