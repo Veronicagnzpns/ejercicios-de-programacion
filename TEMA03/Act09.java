@@ -1,4 +1,4 @@
-public class Act9 { // Clase principal
+public class Act09 { // Clase principal
   public static void main(String[] args) {
     System.out.print("Por favor, introduce la medida de la altura: ");
     double altura = Integer.parseInt(System.console().readLine());

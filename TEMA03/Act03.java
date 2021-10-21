@@ -1,4 +1,4 @@
-public class Act3 { // Clase principal
+public class Act03 { // Clase principal
   public static void main(String[] args) {
     String dinero;
     System.out.print("Por favor, introduce una cantidad de pesetas: ");

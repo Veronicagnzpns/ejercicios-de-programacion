@@ -1,4 +1,4 @@
-public class Act7 {
+public class Act07 {
   public static void main(String[] args) {
     System.out.print("Por favor, introduce el precio del producto: ");
     double baseImponible= Integer.parseInt(System.console().readLine());

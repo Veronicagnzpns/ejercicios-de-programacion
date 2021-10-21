@@ -1,4 +1,4 @@
-public class Act4 { // Clase principal
+public class Act04 { // Clase principal
   public static void main(String[] args) {
     String numero;
     System.out.print("Por favor, introduce un número: ");

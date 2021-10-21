@@ -1,4 +1,4 @@
-public class Act8 {
+public class Act08 {
   public static void main(String[] args) {
     System.out.print("Por favor, introduce las horas semanales trabajadas: ");
     double horasTrabajadas= Integer.parseInt(System.console().readLine());

@@ -1,6 +1,6 @@
 
 
-public class Act2 { // Clase principal
+public class Act02 { // Clase principal
   public static void main(String[] args) {
     String dinero;
     System.out.print("Por favor, introduce una cantidad de euros: ");

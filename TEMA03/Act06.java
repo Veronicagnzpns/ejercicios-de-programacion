@@ -1,4 +1,4 @@
-public class Act6 { // Clase principal
+public class Act06 { // Clase principal
   public static void main(String[] args) {
     String numero;
     System.out.print("Por favor, introduce la medida de la altura: ");
