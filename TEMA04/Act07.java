@@ -1,4 +1,4 @@
-public class Act7{
+public class Act07{
   public static void main(String[] args) {
     double primerExamen;
     double segundoExamen;

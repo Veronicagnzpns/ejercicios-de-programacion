@@ -1,4 +1,4 @@
-public class Act2 {
+public class Act02 {
   public static void main(String[] args) {   
        System.out.print("-------HORARIO--------- \n");
     System.out.print("Por favor, introduzca un hora del dia: ");

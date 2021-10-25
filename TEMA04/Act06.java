@@ -1,4 +1,4 @@
-public class Act6{
+public class Act06{
   public static void main(String[] args) {
     double h;
     double g = 9.81;

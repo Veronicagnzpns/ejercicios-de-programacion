@@ -1,4 +1,4 @@
-public class Act4{
+public class Act04{
   public static void main(String[] args) {
     System.out.print("-------------Calculadora de salarios---------------");
     System.out.print("Por favor, introduce las horas semanales trabajadas: ");

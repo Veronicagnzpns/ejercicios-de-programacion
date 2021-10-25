@@ -1,4 +1,4 @@
-public class Act3 {
+public class Act03 {
   public static void main(String[] args) {   
        
     System.out.print("Por favor, introduzca un numero de dia: ");

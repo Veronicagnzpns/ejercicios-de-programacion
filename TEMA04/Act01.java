@@ -1,4 +1,4 @@
-public class Act1 {
+public class Act01 {
   public static void main(String[] args) {   
        System.out.print("HORARIO DE CLASE\n");
     System.out.print("Por favor, introduzca un dia de la semana: ");
