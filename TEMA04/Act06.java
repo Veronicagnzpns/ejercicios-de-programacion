@@ -6,7 +6,7 @@ public class Act6{
     System.out.print("\nPorfavor, introduzca el valor de h: ");
         h = Double.parseDouble(System.console().readLine());
         double tiempo = Math.sqrt(2*h/g);
-  System.out.println("El resultado de t es " + tiempo);
+  System.out.println("El resultado de t es " + tiempo +" s");
   }
 
 }

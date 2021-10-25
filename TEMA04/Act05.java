@@ -7,10 +7,10 @@ public class Act5{
         a = Double.parseDouble(System.console().readLine());
         System.out.print("ahora introduzca el valor de b: ");
         b = Double.parseDouble(System.console().readLine());
-    if ( a>0){
-        System.out.println("El resultado de x es " + ((-b )/a));
-}   else {
-  System.out.println("El resultado de la ecuación no tine solución real");
-  }
+    if ( a==0){
+        System.out.println("El resultado de la ecuación no tine solución real");
+        }else {
+         System.out.println("El resultado de x es " + ((-b )/a));
+         }
 }
 }
