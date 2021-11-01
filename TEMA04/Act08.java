@@ -3,7 +3,6 @@ public class Act08{
     double primerExamen;
     double segundoExamen;
     double tercerExamen;
-    System.out.print("\nEste programa resuelve ecuaciones de primer grado del tipo ax+b=0 ");
     System.out.print("\nPorfavor, introduzca el valor de la primera nota: ");
         primerExamen = Double.parseDouble(System.console().readLine());
         System.out.print("ahora introduzca el valor de el segundo examen: ");
