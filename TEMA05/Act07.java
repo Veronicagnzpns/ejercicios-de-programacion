@@ -7,12 +7,12 @@ public class Act07 {
        int n = Integer.parseInt(System.console().readLine());
   
      if ( !(cod==n) ) {
-      if (i<3){ System.out.println("Lo siento el numero introducido no es el correcto.");}
-      else { System.out.println("Lo siento el numero introducido no es el correcto Y A AGOTADO EL Nº DE INTENTOS.");}
+      if (i<3){ System.out.println("Lo siento, esa no es la combinación");}
+      else { System.out.println("Lo siento, esa no es la combinación Y A AGOTADO EL Nº DE INTENTOS.");}
       
        } 
-      if( cod == n ){
-          System.out.println("Nº introducido corecto");
+     if( cod == n ){
+          System.out.println("La caja fuerte se ha abierto satisfactoriamente");
           i=5;
          }
         
