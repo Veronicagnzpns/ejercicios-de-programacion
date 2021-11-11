@@ -8,13 +8,14 @@ public class Act13 {
       n = Integer.parseInt(System.console().readLine());
   
       if (n>=0) {
-      positivos++;
+        positivos++;
        } 
       if (n<0){ 
-      negativos++;
+        negativos++;
         } 
     }
-          System.out.printf("En esta lista de 10 digitos ahi %4d nº positivos y %5d nº negativos",positivos,negativos);
+    
+    System.out.printf("En esta lista de 10 digitos ahi %4d nº positivos y %5d nº negativos",positivos,negativos);
 
   }
 }
