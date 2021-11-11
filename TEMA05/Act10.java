@@ -9,12 +9,12 @@ public class Act10 {
     int total=0;   
     while (numeroIntroducido >= 0) {
       numeroIntroducido = Integer.parseInt(System.console().readLine());
-      cuentaNumeros++; // Incrementa en uno la variable
-      suma += numeroIntroducido; // Equivale a suma = suma + NumeroIntroducido
+      cuentaNumeros++; 
+      suma += numeroIntroducido; 
      
     }
-     total=(suma - numeroIntroducido)/(cuentaNumeros - 1); 
+    total=(suma - numeroIntroducido)/(cuentaNumeros - 1); 
     System.out.println("Has introducido " + (cuentaNumeros - 1) + " números positivos.");
-    System.out.println("La suma total de ellos es " + total);
+    System.out.println("La media total de ellos es " + total);
   }
 }
