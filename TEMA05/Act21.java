@@ -13,15 +13,14 @@ public class Act21 {
     int cuentaNumerosPar=0;
    
     while (numeroIntroducido >=0) {
-      numeroIntroducido = Integer.parseInt(System.console().readLine());
-      if ((numeroIntroducido>numeroAnterior) && (numeroIntroducido%2 == 0)){
-      numeroMayorPar=numeroIntroducido;
+       if(numeroIntroducido<0){
+      break;
       }
       
+      numeroIntroducido = Integer.parseInt(System.console().readLine());
       
-       if(numeroIntroducido<0){
-       break;
-      
+      if ((numeroIntroducido>numeroAnterior) && (numeroIntroducido%2 == 0)){
+      numeroMayorPar=numeroIntroducido;
       }
       
       if(numeroIntroducido%2 == 0){
@@ -35,11 +34,14 @@ public class Act21 {
     }
   
     totalImpares = sumaImpares/cuentaNumerosImpar;
-        System.out.println("Has introducido " + (sumaNumerosIntro) + " números.");
+    
+    System.out.println("Has introducido " + (sumaNumerosIntro) + " números.");
 
-    System.out.println("El numero mayor de los pares es" + (numeroMayorPar));
+    System.out.println("El numero mayor de los pares es " + (numeroMayorPar));
+    
     System.out.println("Has introducido " + (cuentaNumerosImpar) + " números impares.");
-        System.out.println("suma de impares " + (sumaImpares) + " números impares.");
+    
+    System.out.println("suma de impares " + (sumaImpares) + " números impares.");
 
     System.out.println("La media total de ellos es " + totalImpares);
   }
