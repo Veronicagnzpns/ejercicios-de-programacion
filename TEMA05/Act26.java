@@ -11,10 +11,12 @@ public class Act26 {
     int nBuscado=0;
     int posicion=1;
     System.out.print("El digito se encuentra en la posicion: " );
+    
     while(n>0) {
       nVolteado=(nVolteado*10)+(n%10);
       n/=10;
       }
+    
     while (nVolteado>0){
       if ((nVolteado%10)==x){
             System.out.print(posicion+" ");
