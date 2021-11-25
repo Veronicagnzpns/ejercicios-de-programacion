@@ -1,7 +1,7 @@
 public class Act29 {
   public static void main(String[] args) {
    
-    System.out.print("CALCULO FACTORIAL\n");
+    System.out.print("CALCULO \n");
 
     System.out.print("Porfavor introduzca un numero: ");
     int  n = Integer.parseInt(System.console().readLine());
