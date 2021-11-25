@@ -1,22 +1,22 @@
-public class Act02{
+public class Act03{
   public static void main(String[] args) {
-    System.out.println("Genera al azar una carta de un abaraja francesa:");
+    System.out.println("Genera al azar una carta de una baraja española:");
       String numeroCarta="";  
       String paloCarta="";
-      int carta=(int)(Math.random()*12)+1;
+      int carta=(int)(Math.random()*11)+1;
       
     switch(carta) {
       case 1:
-        numeroCarta=("A");
+        numeroCarta=("AS");
+        break;
+       case 10:
+        numeroCarta=("Sota");
         break;
        case 11:
-        numeroCarta=("J");
-        break;
-       case 12:
-        numeroCarta=("Q");
+        numeroCarta=("Caballo");
         break; 
-       case 13:
-        numeroCarta=("K");
+       case 12:
+        numeroCarta=("Rey");
         break; 
       default:
         numeroCarta=(" "+carta);
@@ -24,16 +24,16 @@ public class Act02{
       
     switch((int)(Math.random()*4)) {
       case 0:
-        paloCarta=(" picas ♠");
+        paloCarta=("oro");
         break;
       case 1:
-        paloCarta=("corazones ♥");
+        paloCarta=("bastos");
         break;
       case 2:
-        paloCarta=("diamantes ♦");
+        paloCarta=("espada");
         break;
         case 3:
-        paloCarta=("tréboles ♣");
+        paloCarta=("copas");
         break; 
       default:
     }
