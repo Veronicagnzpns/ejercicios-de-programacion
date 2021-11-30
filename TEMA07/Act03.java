@@ -13,7 +13,8 @@ public class Act03 {
     for(int i=0;i<20;i++){
     System.out.printf("numero[%2d] %11d  ",i,numero[i]);
     System.out.printf("cuadrado[%2d] %11d  ",i,cuadrado[i]);
-    System.out.printf("cubo[%2d] %11d\n ",i,cubo[i]);
+    System.out.printf("cubo[%2d] %11d ",i,cubo[i]);
+     System.out.println();
   }
     
   }
