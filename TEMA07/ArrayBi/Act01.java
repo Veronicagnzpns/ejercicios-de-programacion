@@ -1,9 +1,9 @@
 
 public class Act01{
   public static void main(String[] args) 
-    throws InterruptedException { // Se añade esta línea para poder usar sleep
+    throws InterruptedException { 
        
-      int[][] n = new int[3][6]; // array de 3 filas por 2 columnas
+      int[][] n = new int[3][6];
 
       n[0][1] = 30;
       n[0][2] = 2;
@@ -22,7 +22,7 @@ public class Act01{
     
         for(columna = 0; columna < 6; columna++) {
           System.out.printf("%10d ", n[fila][columna]);
-          Thread.sleep(1000); // retardo de un segundo
+          Thread.sleep(1000); 
         }
         System.out.println();    
       }
