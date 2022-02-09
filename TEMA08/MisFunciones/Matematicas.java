@@ -29,4 +29,12 @@ public class Matematicas {
   public static double longitudCircunferencia(double r) {
     return 2 * Math.PI * r;  
   }
+  public static int voltea (int n){
+	  int volteado=0;
+	  while(n>0){
+      volteado=(volteado*10)+(n%10);
+      n/=10;
+    }
+    return volteado;
+	  }
 }
