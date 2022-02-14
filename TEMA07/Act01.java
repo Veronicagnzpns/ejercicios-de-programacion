@@ -1,17 +1,30 @@
-public class Act01 {
-  public static void main(String[] args) {
-        
-    int[] num;
-    num = new int[12]; 
-            
-    num[0] = 39;
-    num[1] = -2;
-    num[4] = 0;
-    num[6] = 14;
-    num[8] = 5;
-    num[9] = 120;
-    System.out.print("Los valores del array num son los siguientes:\n ");
-    System.out.print(num[0] + ", " + num[1] + ", " + num[2] + ", " + num[3]+ ", " + num[4]+ ", " + num[5]+ ", " + num[6]+ ", " + num[7]+ ", " + num[8]+ ", " + num[9]+ ", " + num[10]+ ", " + num[11]);
+
+public class Act01{
+  public static void main(String[] args) 
+    throws InterruptedException { 
+       
+      int[][] n = new int[3][6];
+
+      n[0][1] = 30;
+      n[0][2] = 2;
+      n[0][5] = 5;
+      n[1][0] = 75;
+      n[2][2] = -2;
+      n[2][3] = 9;
+      n[2][5] = 11;
+      
+      int fila;
+      int columna;
+      
+      for(fila = 0; fila < 3; fila++) {
+
+        System.out.print("Fila: " + fila);
     
-  }
+        for(columna = 0; columna < 6; columna++) {
+          System.out.printf("%10d ", n[fila][columna]);
+          Thread.sleep(1000); 
+        }
+        System.out.println();    
+      }
+    }
 }

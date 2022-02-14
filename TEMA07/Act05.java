@@ -1,39 +1,46 @@
-public class Act05 {
-  public static void main(String[] args) {
-    System.out.println("-----------------10 NUMEROS 1MAXIMO Y 1MINIMO------------------- ");
-
-    int[] n = new int[10];
-    int maximo = Integer.MIN_VALUE;
-    int minimo = Integer.MAX_VALUE;
-    
-    System.out.println("Introduzca 10 numeros por teclado dando al intro: ");
-
-    for (int i = 0; i < 10; i++) {
-      n[i] = Integer.parseInt(System.console().readLine());
-     
-      if(n[i]<minimo){
-        minimo=n[i];
-        }
-       
-      if(n[i]>maximo){
-        maximo=n[i];
-        }
+public class Act05{
+  public static void main(String[] args) 
+  
+    throws InterruptedException { 
+       System.out.println("--------------ARRAY ALEATORIO CON POSICION DE MAX Y MIN------------- ");
+      int[][] n = new int[6][10]; 
       
+      int fila;
+      int columna;
+      int max=0;
+      int min=1000;
+      int nFilaMax=0;
+      int nColumnaMax=0;
+      int nFilaMin=0;
+      int nColumnaMin=0;
+      
+      for(fila = 0; fila < 6; fila++) {
+      for(columna = 0; columna < 10; columna++) {
+        n[fila][columna] = ((int)(Math.random() * 1001));
+        if(n[fila][columna]>max){
+          max=n[fila][columna];
+          nFilaMax=fila;
+          nColumnaMax=columna;
+          }
+        if(n[fila][columna]<min){
+          min=n[fila][columna];
+          nFilaMin=fila;
+          nColumnaMin=columna;
+          }
     }
-    
-    for(int i=0;i<10;i++){
-      System.out.printf("numero[%2d] %11d  ",i,n[i]);
-      
-      if(n[i]==minimo){
-        System.out.println("minimo");
-        }
-      
-      if(n[i]==maximo){
-        System.out.println("maximo");
-        }
-      System.out.println();
   }
- 
-     
+    for(fila = 0; fila < 6; fila++) {
+      for(columna = 0; columna < 10; columna++) {
+        System.out.printf("%7d  ", n[fila][columna]);
+      }
+      System.out.println();
+    }
+    System.out.println();
+    System.out.println("El numero max es "+ max +" que se encientra en la fila "+ nFilaMax +" y en la columna "+ nColumnaMax);
+    System.out.printf("El numero max es "+ min +" que se encientra en la fila "+ nFilaMin +" y en la columna "+ nColumnaMin);
+
+  }
+
 }
-}
+
+
